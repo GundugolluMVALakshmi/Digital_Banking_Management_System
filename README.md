@@ -130,8 +130,6 @@ Thank you for using Digital Bank. Goodbye!
 * Add functionality for multiple account types (e.g., savings, checking).
 * Enhance security features with authentication (login/logout).
 
----
-
 Thank you for using the Digital Banking Management System!
 
 ```
