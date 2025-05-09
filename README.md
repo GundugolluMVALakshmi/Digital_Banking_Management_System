@@ -1,39 +1,48 @@
-````
+---
+
 # Digital Banking Management System
 
 Welcome to the Digital Banking Management System! A seamless, intuitive, and simple Python-based banking system designed to simulate banking functionalities for users. This project enables users to create an account, deposit/withdraw money, check their balance, and view transaction history, all while interacting with a smooth and easy-to-use interface.
 
 ## 🚀 Features
-- **Create an Account**: Set up a new account with a unique name to start your banking journey.
-- **Deposit Money**: Add money into your account whenever you need to top up.
-- **Withdraw Money**: Take money out of your account at any time.
-- **Check Balance**: Always know the status of your balance.
-- **Transaction History**: View all your transactions (both deposits and withdrawals).
+
+* **Create an Account**: Set up a new account with a unique name to start your banking journey.
+* **Deposit Money**: Add money into your account whenever you need to top up.
+* **Withdraw Money**: Take money out of your account at any time.
+* **Check Balance**: Always know the status of your balance.
+* **Transaction History**: View all your transactions (both deposits and withdrawals).
+* **Password Protection**: Secure your account with a password to ensure only authorized access.
 
 ## 🛠 Technologies Used
-- **Python**: The language that powers everything in this project.
-- **Object-Oriented Programming (OOP)**: To maintain clean and efficient code.
-- **File Handling**: To manage account details and transaction history.
+
+* **Python**: The language that powers everything in this project.
+* **Object-Oriented Programming (OOP)**: To maintain clean and efficient code.
+* **File Handling**: To manage account details and transaction history.
 
 ## 🚀 How to Run the Project
 
 ### Prerequisites
+
 Make sure you have Python installed on your machine. Download Python [here](https://www.python.org/downloads/).
 
 ### Steps to Run:
-1. **Clone the Repository:**
+
+1. **Clone the Repository**:
+
    Open your terminal/command prompt and run the following command:
+
    ```bash
    git clone https://github.com/your_username/Digital_Banking_Management_System.git
-````
+   ```
 
-2. **Navigate to the Project Folder:**
+2. **Navigate to the Project Folder**:
 
    ```bash
    cd Digital_Banking_Management_System
    ```
 
-3. **Run the Script:**
+3. **Run the Script**:
+
    Use one of the following commands to run the script:
 
    ```bash
@@ -46,7 +55,8 @@ Make sure you have Python installed on your machine. Download Python [here](http
    python3 main.py
    ```
 
-4. **Test the System:**
+4. **Test the System**:
+
    The program will display a menu. Follow the prompts to test different features such as deposit, withdrawal, balance check, etc.
 
 ## 💻 Example Output:
@@ -119,6 +129,20 @@ Thank you for using Digital Bank. Goodbye!
 * Implement a user-friendly graphical interface (GUI).
 * Add functionality for multiple account types (e.g., savings, checking).
 * Enhance security features with authentication (login/logout).
+
+## 🎉 Contributions
+
+Feel free to fork the repository and create a pull request with your enhancements or bug fixes. All contributions are welcome!
+
+---
+
+### Key Points:
+
+* **Password Protection**: The `authenticate` method ensures that only the correct password allows access to the bank account.
+* **Basic Banking Features**: The system supports deposit, withdrawal, balance check, and transaction history retrieval.
+* **User Input Validation**: The program handles invalid inputs for both the amount and the user’s choice in the menu, which enhances the user experience.
+
+---
 
 Thank you for using the Digital Banking Management System!
 
