@@ -130,18 +130,6 @@ Thank you for using Digital Bank. Goodbye!
 * Add functionality for multiple account types (e.g., savings, checking).
 * Enhance security features with authentication (login/logout).
 
-## 🎉 Contributions
-
-Feel free to fork the repository and create a pull request with your enhancements or bug fixes. All contributions are welcome!
-
----
-
-### Key Points:
-
-* **Password Protection**: The `authenticate` method ensures that only the correct password allows access to the bank account.
-* **Basic Banking Features**: The system supports deposit, withdrawal, balance check, and transaction history retrieval.
-* **User Input Validation**: The program handles invalid inputs for both the amount and the user’s choice in the menu, which enhances the user experience.
-
 ---
 
 Thank you for using the Digital Banking Management System!
